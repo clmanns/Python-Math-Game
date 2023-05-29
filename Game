@@ -1,0 +1,25 @@
+def gameintro():
+    print ('Would you like to play a game?') print(':\n')
+    if int(answer) == no: print('Why are you here? Bye.)
+    else int(answer) == yes: print('Let us begin)
+    answer = input()
+    time.sleep(3)
+    gameintro()
+def gamebody():
+    number = random.radint (1,12)
+    number2 = random.radint(1,12)
+    
+    print('Discern' + str(number) + '=' + str(number2) + ':\n)
+    answer = input()
+    
+    problem = int(number) x int(number2)
+    if: int(answer) == problem print('Another?') 
+    gamebody()
+    
+    else: print('Failure too is a result') print(':\n')
+    
+    Print('Redemption?') 
+    
+    playagain = 'yes' print(':\n')
+    gamebody()
+    playagain = input()
